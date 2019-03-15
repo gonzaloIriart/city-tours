@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
+import TourList from './components/TourList';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <main>
         <NavBar />
-        <h1>City tours</h1>
-      </div>
+        <TourList />
+      </main>
     );
   }
 }
